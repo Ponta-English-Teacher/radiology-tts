@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>X線撮影ポーズ検索</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 1rem;
+      background: #f8f8f8;
+    }
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .id {
+      font-weight: bold;
+      color: #333;
+    }
+    .projection {
+      color: #444;
+      margin-top: 0.3rem;
+    }
+    audio {
+      margin-top: 0.5rem;
+      width: 100%;
+    }
+    ol {
+      margin: 0.5rem 0 0 1.2rem;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>📋 X線撮影ポーズ検索ツール（英語版）</h2>
+  <input type="text" id="searchInput" placeholder="ID・ポーズ名・部位名で検索">
+
+  <div id="results"></div>
+
+  <script>
+    let data = [];
+
+    async function loadData() {
+      const response = await fetch('positions_utf16.json');
+      data = await response.json();
+      renderResults('');
+    }
+
+    function renderResults(keyword) {
+      const container = document.getElementById('results');
+      container.innerHTML = '';
+
+      const filtered = data.filter(entry => {
+        const text = [
+          entry.id,
+          entry.projectionName_ja,
+          entry.bodyPart_ja || ''
+        ].join(' ').toLowerCase();
+        return text.includes(keyword.toLowerCase());
+      });
+
+      filtered.forEach(entry => {
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.innerHTML = `
+          <div class="id">ID: ${entry.id}</div>
+          <div class="projection">撮影名: ${entry.projectionName_ja} (${entry.projectionName_en})</div>
+          <div class="projection">部位: ${entry.bodyPart_ja || '---'}</div>
+          <ol>${entry.instructionSteps.map(step => `<li>${step.en}</li>`).join('')}</ol>
+          <audio controls src="sounds/${entry.id}.mp3"></audio>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    document.getElementById('searchInput').addEventListener('input', e => {
+      renderResults(e.target.value);
+    });
+
+    loadData();
+  </script>
+</body>
+</html>

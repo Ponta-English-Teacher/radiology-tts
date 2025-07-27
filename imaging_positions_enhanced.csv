@@ -1,0 +1,176 @@
+ID,Projection (EN),投影名（日本語）,Modality,Body Part,Posture Description,Posture Tags,Instructions (EN),Action Tags,指示（JP）,Purpose
+chest_pa,PA chest,胸部正面撮影（PA）,X-ray,Chest,"Standing, facing detector, arms on hips",standing,"Stand facing the board.
+Place both hands on your hips.
+Take a deep breath … hold.","hold, place, stand","板の方を向いて立ってください。
+両手を腰に当ててください。
+大きく息を吸って…止めてください。",Evaluate lungs & heart size
+chest_lat,Lateral chest,胸部側面撮影,X-ray,Chest,"Standing side-on, left shoulder touching board, arms raised",standing,"Stand with your left side against the board.
+Raise both arms above your head.
+Stay very still … hold breath.","hold, raise, stand, stay","左肩を板に付けて立ってください。
+両腕を頭の上に上げてください。
+動かずに…息を止めてください。",Lateral assessment of lungs
+cervical_lat,Lateral cervical spine,頸椎側面撮影,X-ray,Cervical Spine,"Standing side-on, shoulders relaxed, chin slightly up",standing,"Stand sideways to the board.
+Keep your shoulders relaxed.
+Lift your chin a little.","keep, stand","横向きに立ってください。
+肩の力を抜いてください。
+あごを少し上げてください。",Check cervical alignment
+shoulder_ap,AP shoulder,肩正面撮影（AP）,X-ray,Shoulder,"Standing facing detector, arm slightly abducted",standing,"Face the board.
+Move your arm slightly out to the side.
+Hold still.","hold, move","板の方を向いてください。
+腕を少し横に開いてください。
+そのまま動かないでください。",Assess glenohumeral joint
+elbow_lat,Lateral elbow,肘側面撮影,X-ray,Elbow,"Seated, elbow on table, flexed 90°, thumb up",seated,"Place your elbow on the table.
+Bend it to 90 degrees.
+Keep your thumb pointing up.","bend, keep, place, point","肘をテーブルに乗せてください。
+肘を90度に曲げてください。
+親指を上に向けてください。",Fracture / dislocation
+wrist_pa,PA wrist,手関節正面撮影（PA）,X-ray,Wrist,"Seated, palm flat on detector, fingers extended",seated,"Rest your palm flat on the plate.
+Straighten your fingers.
+Don’t move.","move, rest, straighten","手のひらを板にぴったり付けてください。
+指をまっすぐに伸ばしてください。
+動かないでください。",Distal radius assessment
+pelvis_ap,AP pelvis,骨盤正面撮影（AP）,X-ray,Pelvis,"Supine, legs extended, feet internally rotated 15°",supine,"Lie on your back.
+Keep your legs straight.
+Point your toes slightly inward.","keep, lie, point","あお向けになってください。
+足をまっすぐに伸ばしてください。
+つま先を少し内側に向けてください。",Hip & pelvic ring
+knee_lat,Lateral knee,膝側面撮影,X-ray,Knee,"Side-lying, affected knee flexed 30°, other leg behind",side-lying,"Lie on your side.
+Bend the top knee a little.
+Keep the bottom leg back.","bend, keep, lie","横向きに寝てください。
+上の膝を少し曲げてください。
+下の脚を後ろへ引いてください。",Lateral knee joint
+ankle_ap,AP ankle,足関節正面撮影（AP）,X-ray,Ankle,"Supine or seated, foot dorsiflexed, ankle centred","seated, supine","Place your foot flat and point toes up.
+Keep your heel on the plate.
+Hold still.","hold, keep, place, point","足裏を立てて、つま先を上に向けてください。
+かかとを板に付けたままにしてください。
+動かないでください。",Malleolar fracture check
+foot_oblique,Oblique foot,足部斜位撮影,X-ray,Foot,Foot internally rotated 30°,,"Place the sole on the plate.
+Turn your foot inward a little.
+Stay still.","place, stay","足裏を板に乗せてください。
+足を少し内側に回してください。
+そのまま動かないでください。",Metatarsal & tarsal bones
+forearm_ap,AP forearm,前腕正面撮影（AP）,X-ray,Forearm,Arm extended palm up on table,,"Extend your arm palm up.
+Keep it flat on the plate.
+Hold still.","hold, keep","腕を伸ばして手のひらを上にしてください。
+板にぴったり付けてください。
+動かないでください。",Radius/ulna alignment
+lumbar_lat,Lateral lumbar spine,腰椎側面撮影,X-ray,Lumbar Spine,"Standing side-on, arms crossed or raised",standing,"Stand sideways to the board.
+Cross your arms in front.
+Keep your back straight.","keep, stand","横向きに立ってください。
+腕を前で組んでください。
+背中をまっすぐにしてください。",Assess lumbar alignment
+thoracic_ap,AP thoracic spine,胸椎正面撮影（AP）,X-ray,Thoracic Spine,"Supine, arms at side",supine,"Lie on your back.
+Keep arms by your side.
+Don’t move.","keep, lie, move","あお向けになってください。
+腕を体の横に置いてください。
+動かないでください。",Thoracic vertebrae
+skull_lat,Lateral skull,頭部側面撮影,X-ray,Skull,"Seated, side of head against panel",seated,"Sit and place the side of your head on the plate.
+Keep your shoulders relaxed.
+Hold still.","hold, keep, place, sit","頭の側面を板に当てて座ってください。
+肩の力を抜いてください。
+そのまま動かないでください。",General skull survey
+abdomen_supine,Supine abdomen,腹部仰臥位撮影,X-ray,Abdomen,"Supine, arms away from body",supine,"Lie on your back.
+Place your arms above your head.
+Stay still and breathe normally.","lie, place, stay","あお向けになってください。
+腕を頭の上に置いてください。
+普通に呼吸しながら動かないでください。",KUB (kidney-ureter-bladder)
+scapular_y,Scapular Y-view,肩甲骨Y撮影,X-ray,Shoulder,"Standing 45 deg oblique, injured shoulder against detector",standing,"Stand at an angle to the board.
+Put your injured shoulder on the board.
+Keep the other shoulder forward and hold still.","hold, keep, stand","板に対して斜めに立ってください。
+痛めた肩を板に当ててください。
+もう一方の肩を前に出して動かないでください。",Detect shoulder dislocation (Scapular Y view)
+clavicle_ap,AP clavicle,鎖骨正面撮影（AP）,X-ray,Clavicle,"Standing facing detector, chin up, shoulders level",standing,"Face the board.
+Raise your chin slightly.
+Keep both shoulders level and still.","keep, raise","板の方を向いてください。
+あごを少し上げてください。
+両肩を水平に保って動かないでください。",Assess clavicle fracture
+hip_frogleg,Frog-leg hip,股関節ファブレ撮影,X-ray,Hip,"Supine, knees bent, feet together, knees outward",supine,"Lie on your back.
+Bend both knees and touch your feet together.
+Let your knees fall outward.","bend, lie","あお向けになってください。
+両膝を曲げて足裏を合わせてください。
+膝を外側に倒してください。",Lateral hip evaluation (frog-leg)
+tibfib_ap,AP lower leg,下腿正面撮影（AP）,X-ray,Lower Leg,"Leg straight, foot vertical",,"Straighten your leg on the plate.
+Point your toes up.
+Hold still.","hold, point, straighten","足を板の上でまっすぐにしてください。
+つま先を上に向けてください。
+動かないでください。",View tibia & fibula (AP)
+tibfib_lat,Lateral lower leg,下腿側面撮影,X-ray,Lower Leg,"Side-lying, injured leg on plate, knee slightly bent",side-lying,"Lie on your side with the injured leg on top.
+Bend that knee a little.
+Keep your foot pointing forward.","bend, keep, lie, point","横向きになり痛めた脚を上にしてください。
+膝を少し曲げてください。
+足をまっすぐ前に向けてください。",Lateral tibia & fibula
+calcaneus_axial,Axial calcaneus,踵骨軸位撮影,X-ray,Foot,"Foot dorsiflexed, heel on detector",,"Put your heel on the plate.
+Pull your toes back toward you.
+Hold that position.","hold, pull, sit","かかとを板に乗せてください。
+つま先を手前に引いてください。
+そのまま保持してください。",Evaluate calcaneus (heel)
+ribs_oblique,Oblique ribs,肋骨斜位撮影,X-ray,Ribs,"Standing 45 deg, injured side to detector, arms up",standing,"Stand slightly angled to the board.
+Put the injured side closer to the board.
+Raise both arms above your head.","raise, stand","板に対して少し斜めに立ってください。
+痛めた側を板に近づけてください。
+両腕を頭の上に上げてください。",Oblique ribs for fracture
+mandible_oblique,Oblique mandible,下顎斜位撮影,X-ray,Mandible,"Seated, head turned to plate, chin up",seated,"Sit and turn your face toward the board.
+Raise your chin a little.
+Stay very still.","raise, sit, stay","座って顔を板の方へ向けてください。
+あごを少し上げてください。
+そのまま動かないでください。",Oblique mandible body/ramus
+hand_pa,PA hand,手部正面撮影（PA）,X-ray,Hand,"Palm flat on plate, fingers spread",,"Place your hand flat on the plate.
+Spread your fingers slightly.
+Keep still.","keep, place, spread","手のひらを板にぴったり付けてください。
+指を少し開いてください。
+動かないでください。",Fracture / joint assessment
+finger_lat,Lateral finger,指側面撮影,X-ray,Finger,"Hand on side, injured finger extended",,"Put your hand on its side.
+Straighten the injured finger.
+Curl the other fingers in.","curl, straighten","手を横向きに置いてください。
+痛めた指をまっすぐ伸ばしてください。
+他の指を軽く握ってください。",Lateral finger
+ct_head_supine,CT head (supine),頭部CT（仰臥位）,CT,Head,"Supine head-first, head neutral in cradle",supine,"Lie on your back with your head here.
+Keep your head still and look up.
+The table will move; stay relaxed.","keep, lie, move, stay","あお向けになり頭をここに入れてください。
+頭を動かさず真上を見てください。
+台が動きますので力を抜いてください。",Acute head injury
+ct_c_spine,CT cervical spine,頸椎CT（仰臥位）,CT,Cervical Spine,"Supine head-first, cervical collar on",supine,"Lie flat on your back.
+Keep the neck brace on, do not move.
+The table will slide into the scanner.","keep, lie, move","あお向けにまっすぐ寝てください。
+ネックカラーを付けたまま動かないでください。
+台がスキャナーに入ります。",Trauma cervical spine
+ct_chest_armsup,CT chest (arms up),胸部CT（腕挙上）,CT,Chest,"Supine, arms raised above head",supine,"Raise both arms above your head.
+Lie still and breathe normally.
+Hold your breath when asked.","hold, lie, raise","両腕を頭の上に上げてください。
+動かず普通に呼吸してください。
+合図で息を止めてください。",Chest CT
+ct_abdo_pelvis,CT abdomen/pelvis,腹部・骨盤CT,CT,Abdomen/Pelvis,"Supine, arms up, knees on support",supine,"Lie on your back, arms above head.
+Rest your knees on the cushion.
+Hold your breath when told.","hold, lie, rest","あお向けで腕を頭の上に置いてください。
+膝をクッションに乗せてください。
+指示で息を止めてください。",Abdominopelvic scan
+ct_lower_leg,CT lower leg,下腿CT,CT,Lower Leg,"Supine feet-first, leg in cradle",supine,"Lie on your back feet-first.
+Place your injured leg in the cradle.
+Keep the leg very still.","keep, lie, place","足から台に乗りあお向けになってください。
+痛めた脚をクレードルに入れてください。
+脚を動かさないでください。",Tib-fib CT
+mri_brain,MRI brain,脳MRI,MRI,Brain,"Supine head-first, head coil, earplugs",supine,"Lie on your back with your head in the coil.
+Insert these earplugs.
+Stay still; the scan is noisy.","insert, lie, stay","あお向けで頭をコイルに入れてください。
+耳栓を入れてください。
+動かないでください。音が大きくなります。",Brain MRI
+mri_knee,MRI knee,膝MRI,MRI,Knee,"Supine feet-first, knee in coil",supine,"Lie on your back feet-first.
+Slide your knee into the coil.
+Keep your leg as still as possible.","keep, lie","足から台に乗りあお向けになってください。
+膝をコイルに収めてください。
+脚をできるだけ動かさないでください。",Knee ligaments / cartilage
+mri_shoulder,MRI shoulder,肩MRI,MRI,Shoulder,"Supine head-first, arm in shoulder coil",supine,"Lie on your back head-first.
+Place your arm by your side in the coil.
+Keep still; you will hear noises.","keep, lie, place","頭から台に乗りあお向けになってください。
+腕を体の横でコイルに入れてください。
+動かないでください。音がします。",Shoulder MRI
+mri_lumbar,MRI lumbar spine,腰椎MRI,MRI,Lumbar Spine,"Supine feet-first, knees supported",supine,"Lie on your back with knees on the cushion.
+Keep your arms by your sides.
+Stay completely still during each noise.","keep, lie, stay","あお向けで膝をクッションに乗せてください。
+腕を体の横に置いてください。
+音の間ずっと動かないでください。",Lumbar disc evaluation
+mri_ankle,MRI ankle,足関節MRI,MRI,Ankle,"Supine feet-first, ankle in small coil",supine,"Lie on your back feet-first.
+Place your foot in this cradle.
+Keep the toes pointing up.","keep, lie, place, point","足から台に乗りあお向けになってください。
+足をクレードルに入れてください。
+つま先を上に向けてください。",Ankle joint imaging

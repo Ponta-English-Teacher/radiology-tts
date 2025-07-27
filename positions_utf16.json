@@ -1,0 +1,597 @@
+[
+  {
+    "id": "chest_pa",
+    "projectionName_en": "PA chest",
+    "projectionName_ja": "胸部正面撮影（PA）",
+    "bodyPart_ja": "Chest",
+    "instructionSteps": [
+      {
+        "en": "Stand facing the board."
+      },
+      {
+        "en": "Place both hands on your hips."
+      },
+      {
+        "en": "Take a deep breath … hold."
+      }
+    ]
+  },
+  {
+    "id": "chest_lat",
+    "projectionName_en": "Lateral chest",
+    "projectionName_ja": "胸部側面撮影",
+    "bodyPart_ja": "Chest",
+    "instructionSteps": [
+      {
+        "en": "Stand with your left side against the board."
+      },
+      {
+        "en": "Raise both arms above your head."
+      },
+      {
+        "en": "Stay very still … hold breath."
+      }
+    ]
+  },
+  {
+    "id": "cervical_lat",
+    "projectionName_en": "Lateral cervical spine",
+    "projectionName_ja": "頸椎側面撮影",
+    "bodyPart_ja": "Cervical Spine",
+    "instructionSteps": [
+      {
+        "en": "Stand sideways to the board."
+      },
+      {
+        "en": "Keep your shoulders relaxed."
+      },
+      {
+        "en": "Lift your chin a little."
+      }
+    ]
+  },
+  {
+    "id": "shoulder_ap",
+    "projectionName_en": "AP shoulder",
+    "projectionName_ja": "肩正面撮影（AP）",
+    "bodyPart_ja": "Shoulder",
+    "instructionSteps": [
+      {
+        "en": "Face the board."
+      },
+      {
+        "en": "Move your arm slightly out to the side."
+      },
+      {
+        "en": "Hold still."
+      }
+    ]
+  },
+  {
+    "id": "elbow_lat",
+    "projectionName_en": "Lateral elbow",
+    "projectionName_ja": "肘側面撮影",
+    "bodyPart_ja": "Elbow",
+    "instructionSteps": [
+      {
+        "en": "Place your elbow on the table."
+      },
+      {
+        "en": "Bend it to 90 degrees."
+      },
+      {
+        "en": "Keep your thumb pointing up."
+      }
+    ]
+  },
+  {
+    "id": "wrist_pa",
+    "projectionName_en": "PA wrist",
+    "projectionName_ja": "手関節正面撮影（PA）",
+    "bodyPart_ja": "Wrist",
+    "instructionSteps": [
+      {
+        "en": "Rest your palm flat on the plate."
+      },
+      {
+        "en": "Straighten your fingers."
+      },
+      {
+        "en": "Don’t move."
+      }
+    ]
+  },
+  {
+    "id": "pelvis_ap",
+    "projectionName_en": "AP pelvis",
+    "projectionName_ja": "骨盤正面撮影（AP）",
+    "bodyPart_ja": "Pelvis",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back."
+      },
+      {
+        "en": "Keep your legs straight."
+      },
+      {
+        "en": "Point your toes slightly inward."
+      }
+    ]
+  },
+  {
+    "id": "knee_lat",
+    "projectionName_en": "Lateral knee",
+    "projectionName_ja": "膝側面撮影",
+    "bodyPart_ja": "Knee",
+    "instructionSteps": [
+      {
+        "en": "Lie on your side."
+      },
+      {
+        "en": "Bend the top knee a little."
+      },
+      {
+        "en": "Keep the bottom leg back."
+      }
+    ]
+  },
+  {
+    "id": "ankle_ap",
+    "projectionName_en": "AP ankle",
+    "projectionName_ja": "足関節正面撮影（AP）",
+    "bodyPart_ja": "Ankle",
+    "instructionSteps": [
+      {
+        "en": "Place your foot flat and point toes up."
+      },
+      {
+        "en": "Keep your heel on the plate."
+      },
+      {
+        "en": "Hold still."
+      }
+    ]
+  },
+  {
+    "id": "foot_oblique",
+    "projectionName_en": "Oblique foot",
+    "projectionName_ja": "足部斜位撮影",
+    "bodyPart_ja": "Foot",
+    "instructionSteps": [
+      {
+        "en": "Place the sole on the plate."
+      },
+      {
+        "en": "Turn your foot inward a little."
+      },
+      {
+        "en": "Stay still."
+      }
+    ]
+  },
+  {
+    "id": "forearm_ap",
+    "projectionName_en": "AP forearm",
+    "projectionName_ja": "前腕正面撮影（AP）",
+    "bodyPart_ja": "Forearm",
+    "instructionSteps": [
+      {
+        "en": "Extend your arm palm up."
+      },
+      {
+        "en": "Keep it flat on the plate."
+      },
+      {
+        "en": "Hold still."
+      }
+    ]
+  },
+  {
+    "id": "lumbar_lat",
+    "projectionName_en": "Lateral lumbar spine",
+    "projectionName_ja": "腰椎側面撮影",
+    "bodyPart_ja": "Lumbar Spine",
+    "instructionSteps": [
+      {
+        "en": "Stand sideways to the board."
+      },
+      {
+        "en": "Cross your arms in front."
+      },
+      {
+        "en": "Keep your back straight."
+      }
+    ]
+  },
+  {
+    "id": "thoracic_ap",
+    "projectionName_en": "AP thoracic spine",
+    "projectionName_ja": "胸椎正面撮影（AP）",
+    "bodyPart_ja": "Thoracic Spine",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back."
+      },
+      {
+        "en": "Keep arms by your side."
+      },
+      {
+        "en": "Don’t move."
+      }
+    ]
+  },
+  {
+    "id": "skull_lat",
+    "projectionName_en": "Lateral skull",
+    "projectionName_ja": "頭部側面撮影",
+    "bodyPart_ja": "Skull",
+    "instructionSteps": [
+      {
+        "en": "Sit and place the side of your head on the plate."
+      },
+      {
+        "en": "Keep your shoulders relaxed."
+      },
+      {
+        "en": "Hold still."
+      }
+    ]
+  },
+  {
+    "id": "abdomen_supine",
+    "projectionName_en": "Supine abdomen",
+    "projectionName_ja": "腹部仰臥位撮影",
+    "bodyPart_ja": "Abdomen",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back."
+      },
+      {
+        "en": "Place your arms above your head."
+      },
+      {
+        "en": "Stay still and breathe normally."
+      }
+    ]
+  },
+  {
+    "id": "scapular_y",
+    "projectionName_en": "Scapular Y-view",
+    "projectionName_ja": "肩甲骨Y撮影",
+    "bodyPart_ja": "Shoulder",
+    "instructionSteps": [
+      {
+        "en": "Stand at an angle to the board."
+      },
+      {
+        "en": "Put your injured shoulder on the board."
+      },
+      {
+        "en": "Keep the other shoulder forward and hold still."
+      }
+    ]
+  },
+  {
+    "id": "clavicle_ap",
+    "projectionName_en": "AP clavicle",
+    "projectionName_ja": "鎖骨正面撮影（AP）",
+    "bodyPart_ja": "Clavicle",
+    "instructionSteps": [
+      {
+        "en": "Face the board."
+      },
+      {
+        "en": "Raise your chin slightly."
+      },
+      {
+        "en": "Keep both shoulders level and still."
+      }
+    ]
+  },
+  {
+    "id": "hip_frogleg",
+    "projectionName_en": "Frog-leg hip",
+    "projectionName_ja": "股関節ファブレ撮影",
+    "bodyPart_ja": "Hip",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back."
+      },
+      {
+        "en": "Bend both knees and touch your feet together."
+      },
+      {
+        "en": "Let your knees fall outward."
+      }
+    ]
+  },
+  {
+    "id": "tibfib_ap",
+    "projectionName_en": "AP lower leg",
+    "projectionName_ja": "下腿正面撮影（AP）",
+    "bodyPart_ja": "Lower Leg",
+    "instructionSteps": [
+      {
+        "en": "Straighten your leg on the plate."
+      },
+      {
+        "en": "Point your toes up."
+      },
+      {
+        "en": "Hold still."
+      }
+    ]
+  },
+  {
+    "id": "tibfib_lat",
+    "projectionName_en": "Lateral lower leg",
+    "projectionName_ja": "下腿側面撮影",
+    "bodyPart_ja": "Lower Leg",
+    "instructionSteps": [
+      {
+        "en": "Lie on your side with the injured leg on top."
+      },
+      {
+        "en": "Bend that knee a little."
+      },
+      {
+        "en": "Keep your foot pointing forward."
+      }
+    ]
+  },
+  {
+    "id": "calcaneus_axial",
+    "projectionName_en": "Axial calcaneus",
+    "projectionName_ja": "踵骨軸位撮影",
+    "bodyPart_ja": "Foot",
+    "instructionSteps": [
+      {
+        "en": "Put your heel on the plate."
+      },
+      {
+        "en": "Pull your toes back toward you."
+      },
+      {
+        "en": "Hold that position."
+      }
+    ]
+  },
+  {
+    "id": "ribs_oblique",
+    "projectionName_en": "Oblique ribs",
+    "projectionName_ja": "肋骨斜位撮影",
+    "bodyPart_ja": "Ribs",
+    "instructionSteps": [
+      {
+        "en": "Stand slightly angled to the board."
+      },
+      {
+        "en": "Put the injured side closer to the board."
+      },
+      {
+        "en": "Raise both arms above your head."
+      }
+    ]
+  },
+  {
+    "id": "mandible_oblique",
+    "projectionName_en": "Oblique mandible",
+    "projectionName_ja": "下顎斜位撮影",
+    "bodyPart_ja": "Mandible",
+    "instructionSteps": [
+      {
+        "en": "Sit and turn your face toward the board."
+      },
+      {
+        "en": "Raise your chin a little."
+      },
+      {
+        "en": "Stay very still."
+      }
+    ]
+  },
+  {
+    "id": "hand_pa",
+    "projectionName_en": "PA hand",
+    "projectionName_ja": "手部正面撮影（PA）",
+    "bodyPart_ja": "Hand",
+    "instructionSteps": [
+      {
+        "en": "Place your hand flat on the plate."
+      },
+      {
+        "en": "Spread your fingers slightly."
+      },
+      {
+        "en": "Keep still."
+      }
+    ]
+  },
+  {
+    "id": "finger_lat",
+    "projectionName_en": "Lateral finger",
+    "projectionName_ja": "指側面撮影",
+    "bodyPart_ja": "Finger",
+    "instructionSteps": [
+      {
+        "en": "Put your hand on its side."
+      },
+      {
+        "en": "Straighten the injured finger."
+      },
+      {
+        "en": "Curl the other fingers in."
+      }
+    ]
+  },
+  {
+    "id": "ct_head_supine",
+    "projectionName_en": "CT head (supine)",
+    "projectionName_ja": "頭部CT（仰臥位）",
+    "bodyPart_ja": "Head",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back with your head here."
+      },
+      {
+        "en": "Keep your head still and look up."
+      },
+      {
+        "en": "The table will move; stay relaxed."
+      }
+    ]
+  },
+  {
+    "id": "ct_c_spine",
+    "projectionName_en": "CT cervical spine",
+    "projectionName_ja": "頸椎CT（仰臥位）",
+    "bodyPart_ja": "Cervical Spine",
+    "instructionSteps": [
+      {
+        "en": "Lie flat on your back."
+      },
+      {
+        "en": "Keep the neck brace on, do not move."
+      },
+      {
+        "en": "The table will slide into the scanner."
+      }
+    ]
+  },
+  {
+    "id": "ct_chest_armsup",
+    "projectionName_en": "CT chest (arms up)",
+    "projectionName_ja": "胸部CT（腕挙上）",
+    "bodyPart_ja": "Chest",
+    "instructionSteps": [
+      {
+        "en": "Raise both arms above your head."
+      },
+      {
+        "en": "Lie still and breathe normally."
+      },
+      {
+        "en": "Hold your breath when asked."
+      }
+    ]
+  },
+  {
+    "id": "ct_abdo_pelvis",
+    "projectionName_en": "CT abdomen/pelvis",
+    "projectionName_ja": "腹部・骨盤CT",
+    "bodyPart_ja": "Abdomen/Pelvis",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back, arms above head."
+      },
+      {
+        "en": "Rest your knees on the cushion."
+      },
+      {
+        "en": "Hold your breath when told."
+      }
+    ]
+  },
+  {
+    "id": "ct_lower_leg",
+    "projectionName_en": "CT lower leg",
+    "projectionName_ja": "下腿CT",
+    "bodyPart_ja": "Lower Leg",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back feet-first."
+      },
+      {
+        "en": "Place your injured leg in the cradle."
+      },
+      {
+        "en": "Keep the leg very still."
+      }
+    ]
+  },
+  {
+    "id": "mri_brain",
+    "projectionName_en": "MRI brain",
+    "projectionName_ja": "脳MRI",
+    "bodyPart_ja": "Brain",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back with your head in the coil."
+      },
+      {
+        "en": "Insert these earplugs."
+      },
+      {
+        "en": "Stay still; the scan is noisy."
+      }
+    ]
+  },
+  {
+    "id": "mri_knee",
+    "projectionName_en": "MRI knee",
+    "projectionName_ja": "膝MRI",
+    "bodyPart_ja": "Knee",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back feet-first."
+      },
+      {
+        "en": "Slide your knee into the coil."
+      },
+      {
+        "en": "Keep your leg as still as possible."
+      }
+    ]
+  },
+  {
+    "id": "mri_shoulder",
+    "projectionName_en": "MRI shoulder",
+    "projectionName_ja": "肩MRI",
+    "bodyPart_ja": "Shoulder",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back head-first."
+      },
+      {
+        "en": "Place your arm by your side in the coil."
+      },
+      {
+        "en": "Keep still; you will hear noises."
+      }
+    ]
+  },
+  {
+    "id": "mri_lumbar",
+    "projectionName_en": "MRI lumbar spine",
+    "projectionName_ja": "腰椎MRI",
+    "bodyPart_ja": "Lumbar Spine",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back with knees on the cushion."
+      },
+      {
+        "en": "Keep your arms by your sides."
+      },
+      {
+        "en": "Stay completely still during each noise."
+      }
+    ]
+  },
+  {
+    "id": "mri_ankle",
+    "projectionName_en": "MRI ankle",
+    "projectionName_ja": "足関節MRI",
+    "bodyPart_ja": "Ankle",
+    "instructionSteps": [
+      {
+        "en": "Lie on your back feet-first."
+      },
+      {
+        "en": "Place your foot in this cradle."
+      },
+      {
+        "en": "Keep the toes pointing up."
+      }
+    ]
+  }
+]
